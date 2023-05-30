@@ -10,7 +10,7 @@ public class Grille {
 
     public ArrayList<Case> getNeighboors(Case c) {
         ArrayList<Integer> coords = c.getCoords();
-        ArrayList<Case>
+        ArrayList<Case> jjj
     }
 
 }
