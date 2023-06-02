@@ -8,29 +8,35 @@ public class Grille {
 
     public int taille;
 
-    public HashMap<Integer[], Case> cases;
+    public ArrayList<Integer> cases;
 
+    public ArrayList<Agent> agents;
 
-    public Case getCase(int x, int y){
-        Integer[] coords = {x, y};
-        return this.cases.get(coords);
-    }
-    public ArrayList<Case> getNeighboors(Case c) {
-        ArrayList<Integer> coords = c.getCoords();
-        ArrayList<Case> res = new ArrayList<>();
-        if (coords.get(1) + 1 <= this.taille) {
-            res.add(this.getCase(coords.get(0), coords.get(1) + 1));
+    public ArrayList<Integer> getNeighboors(int caseId) {
+
+        ArrayList<Integer> voisins = new ArrayList<>();
+        if (caseId - this.taille >= 0) {
+            voisins.add(caseId - 3);
         }
-        if (coords.get(1) - 1 >= 0) {
-            res.add(this.getCase(coords.get(0), coords.get(1) - 1));
+        if (caseId + 3 < (this.taille * this.taille)) {
+            voisins.add(caseId + 3);
         }
-        if (coords.get(0) + 1 <= this.taille) {
-            res.add(this.getCase(coords.get(0) + 1, coords.get(1)));
+        if ((caseId + 1) % this.taille != 0) {
+            voisins.add(caseId + 1);
         }
-        if (coords.get(0) - 1 >= 0) {
-            res.add(this.getCase(coords.get(0) - 1, coords.get(1)));
-        }
+        
         return res;
     }
+
+    public boolean isCompleted() {
+        for (Agent a : this.agents) {
+            if (!a.isAtGoal()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public
 
 }

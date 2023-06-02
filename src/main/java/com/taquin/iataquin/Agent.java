@@ -2,8 +2,12 @@ package com.taquin.iataquin;
 
 public class Agent {
 
-    public Case currentTile;
-    public Case goal;
+    public int currentTile;
+    public int goal;
     public Grille currentGrid;
+
+    public boolean isAtGoal () {
+        return this.goal == this.currentTile;
+    }
 
 }

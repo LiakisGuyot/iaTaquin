@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d465c4e-ec23-4f90-b923-b2335ed9146b" name="Changes" comment="hhhh">
+    <list default="true" id="6d465c4e-ec23-4f90-b923-b2335ed9146b" name="Changes" comment="rrrrrrrr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taquin/iataquin/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taquin/iataquin/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taquin/iataquin/Case.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/taquin/iataquin/Grille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taquin/iataquin/Grille.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.taquin.iataquin" />
@@ -70,7 +72,9 @@
       <option name="presentableId" value="Default" />
       <updated>1685451333539</updated>
       <workItem from="1685451334544" duration="1000" />
-      <workItem from="1685451524688" duration="2043000" />
+      <workItem from="1685451524688" duration="2072000" />
+      <workItem from="1685689673773" duration="1934000" />
+      <workItem from="1685692050911" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="hhhh">
       <created>1685452437655</created>
@@ -93,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685452592930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rrrrrrrr">
+      <created>1685453583229</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685453583229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hhhh" />
-    <option name="LAST_COMMIT_MESSAGE" value="hhhh" />
+    <MESSAGE value="rrrrrrrr" />
+    <option name="LAST_COMMIT_MESSAGE" value="rrrrrrrr" />
   </component>
 </project>
